@@ -9,7 +9,7 @@ document.write('<div class="collapse navbar-collapse" id="navbarSupportedContent
 
 document.write('<ul class="navbar-nav ms-auto mb-2 mb-lg-0">');
 document.write('<li class="nav-item"><a class="nav-link home" aria-current="page" href="index.html">መነሻ</a></li>');
-document.write('<li class="nav-item"><a class="nav-link all"href="https://hahuweb.netlify.app" target="_blank">ዌብሳይት</a></li>');
+//document.write('<li class="nav-item"><a class="nav-link all"href="https://hahuweb.netlify.app" target="_blank">ዌብሳይት</a></li>');
 document.write('</ul>');
 
 document.write('</div>');
