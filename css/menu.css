@@ -1,0 +1,425 @@
+/*
+* sm
+*/
+body {
+    background: #f1f1f1;
+}
+
+.navbar {
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.navbar-brand {
+    margin: 0px 0px 0px 10px;
+}
+
+.bb {
+    background: rgb(197, 125, 66);
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 24px;
+    color: #222;
+}
+
+.navbar .navbar-nav a {
+    margin: 0px 0px 0px 10px;
+}
+
+/*page content*/
+.page-content {
+    margin: 60px 10px 10px 10px;
+}
+
+.card {
+    margin: 20px 0px 0px 0px;
+}
+
+.card .card-title {
+    margin-left: 8px;
+}
+
+/*help*/
+.left-content {
+    display: none;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    z-index: 2100;
+    border: 1px solid #ccc;
+}
+
+.animate-right {
+    animation: animateright 0.4s;
+    transition: 0.5s;
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+
+.left-content a {
+    color: #222;
+}
+
+.hp-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    z-index: 2000;
+}
+
+.right-content {
+    width: 100%;
+}
+
+.right-content li {
+    margin: 8px 0px 0px 0px;
+    padding: 8px 0px 0px 0px;
+}
+
+.ytvid {
+    width: 100%;
+    height: 280px;
+}
+
+/*
+* editor
+*/
+.intro iframe {
+    width: 100%;
+    height: 250px;
+}
+
+
+.swiffy-slider {
+    --swiffy-slider-item-ratio: 100/33.3;
+    --swiffy-slider-nav-zoom: 85%;
+    --swiffy-slider-item-reveal: 20%;
+}
+
+.swiffy-slider img {
+    width: 100%;
+    height: auto;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+}
+
+.section i {
+    font-size: 30px;
+}
+
+
+/*preloader*/
+#preloader {
+    overflow: hidden;
+    background-color: #2a2a2a;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 99999;
+}
+
+#preloader .d-flex {
+    margin-top: 20%;
+}
+
+#preloader .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: rgb(197, 125, 66);
+}
+
+
+/* img overley */
+.overley {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    z-index: 2000;
+}
+
+.overley-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    z-index: 2100;
+}
+
+/* vid overley */
+.vid-overley {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 2000;
+}
+
+.video-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    z-index: 2100;
+}
+
+.vid-frame {
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 40%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.exitBtn {
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*footer*/
+.footer i {
+    font-size: 24px;
+}
+
+/*
+* md
+*/
+@media only screen and (min-width: 768px) {
+
+    /*help*/
+    .left-content {
+        width: 40%;
+    }
+}
+
+/*
+ * lg
+ */
+@media only screen and (min-width: 992px) {
+
+    .navbar-brand {
+        margin: 0px 0px 0px 40px;
+    }
+
+    .navbar-nav {
+        margin: 0px 40px 0px 0px;
+    }
+
+    .navbar .navbar-nav a {
+        margin: 0px 0px 0px 6px;
+    }
+
+    .nav-item {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .navbar .nav-link:hover {
+        border-bottom: 1px solid rgb(179, 104, 44);
+    }
+
+    /*page content*/
+    .page-content {
+        margin: 90px 40px 10px 40px;
+    }
+
+    .card img {
+        height: 260px;
+    }
+
+    /*help*/
+
+    .left-content {
+        display: block;
+        background: none;
+        border-right: 1px solid #ccc;
+        bottom: 0;
+        left: 0px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 0;
+        position: fixed;
+        top: 56px;
+        width: 264px;
+        z-index: 1000;
+
+    }
+
+    .left-content .nav {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .left-content .nav-item {
+        margin: 2px 0px 0px -10px;
+
+    }
+
+    .left-content .nav-link {
+        font-size: 16px;
+        margin-left: 6px;
+        padding: 7px 5px 7px 10px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .left-content .nav a:hover {
+        border-left: 1px solid rgb(197, 125, 66);
+    }
+
+    .right-content {
+        width: 70%;
+        margin: 80px 10px 10px 260px;
+
+    }
+
+    /*
+    * editor
+   */
+    .intro iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .swiffy-slider {
+        --swiffy-slider-item-ratio: 100/33.3;
+        --swiffy-slider-nav-zoom: 85%;
+        --swiffy-slider-item-reveal: 10%;
+    }
+
+    .swiffy-slider img {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiffy-slider img:hover {
+        cursor: pointer;
+    }
+
+    .section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section i {
+        font-size: 34px;
+    }
+
+    /* img overley */
+    .lb-img {
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        max-height: 100%;
+        border-radius: 4px;
+        position: absolute;
+    }
+
+    .overley-content .overley-btn {
+        position: absolute;
+        font-size: 2rem;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .overley-content .exitButton {
+        right: 10px;
+        top: 10px;
+    }
+
+    .overley-content .prevButton {
+        top: 50%;
+        left: 10px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .overley-content .nextButton {
+        top: 50%;
+        right: 10px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    /* vid overley */
+
+    .vid-frame {
+        left: 50%;
+        top: 45%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 60%;
+        height: 70%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        position: absolute;
+    }
+
+    
+    /*footer*/
+    .footer .bi-facebook:hover {
+        color: rgb(57, 57, 243);
+    }
+    .footer .bi-youtube:hover {
+        color: red;
+    }
+    .footer .bi-telegram:hover {
+        color: rgb(51, 126, 224);
+    }
+}
