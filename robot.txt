@@ -1,9 +1,0 @@
-# disallow
-User-agent: Googlebot
-
-
-# alllow
-User-agent: *
-Allow: /
-
-Sitemap:URL/site.xml
